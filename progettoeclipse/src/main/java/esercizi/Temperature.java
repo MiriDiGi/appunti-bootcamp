@@ -10,7 +10,7 @@ public class Temperature {
 		System.out.println("Inserisci la temperatura in gradi C per convertirla in F ");
 		float tempC = input.nextFloat();
 		float tempF = (tempC * 9 / 5) + 32;
-		System.out.println(tempF);
+		System.out.println("la temperatura inserita corrisponde a " + tempF + " gradi fahrenheit");
 		input.close();
 
 	}
